@@ -39,7 +39,7 @@ _return value_ is the same as the constants.
 
 ## Importance of the _Constant Expression_
 
-### Explain how the _constant expression_ stops evaluation
+### Explain How the _Constant Expression_ Stops Evaluation
 
 This _expression_ is important because it tells Ruby _when to stop_.
 
@@ -69,7 +69,7 @@ addition, subtraction.
 The _constant expression_ is always the last expression in a complex
 expression. But there's another reason why
 
-### Explain how the _constant expressoin_ creates agreement
+### Explain How the _Constant Expression_ Creates Agreement
 
 Open up IRB and give a _constant expression_ to Ruby.
 
