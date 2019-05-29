@@ -28,7 +28,7 @@ _operators_? That would be an expression like:
 
 This expression is the _constant expression_ and it's very important, although
 very boring from a programming as conversation perspective, the _constant
-expession_ has the power to create _agreement_ and _trust_. And if it weren't
+expression_ has the power to create _agreement_ and _trust_. And if it weren't
 for you ability to agree with our conversational partner about basic reality,
 programming would never have been possible!
 
@@ -56,7 +56,7 @@ addition, subtraction.
 | `3 * 5`          | YES            | `*`       | NO           | `*` because of PEMDAS|
 | `15`             | NO             | NONE      | YES          | Constant expression! Return the value of the constant, we're done!|
 
-> **DEBUGING TIP** This table might remind you of a "proof" from geometry. It
+> **DEBUGGING TIP** This table might remind you of a "proof" from geometry. It
 > shows how to "step into" an expression (or a sub-expression); and
 > methodically trace the return values back out. This is a great tool for
 > debugging!
