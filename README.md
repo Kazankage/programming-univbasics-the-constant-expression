@@ -73,7 +73,7 @@ expression. But there's another reason why
 
 Open up IRB and give a _constant expression_ to Ruby.
 
-(animation)
+![IRB Constant Expression](https://curriculum-content.s3.amazonaws.com/prework/constant_expr_animation.gif)
 
 It just returns the value _we_ as intelligent humans we are, shrug and think of
 this as "no big deal."
@@ -96,8 +96,10 @@ versus "what you call something."
 
 Because of _agreement_ exists, we can _trust_ our conversational partner.  What
 if when we told Ruby `1 + 1`, it returned `3`? Or what if _sometimes_ it
-returned `99` and other times `2.12`. How could we have agreement and trust
-then? Shakespeare even played with the necessity of _agreement_
+returned `99` and _other_ times `2.12`? How could we have agreement and trust
+then? We'd lose our minds if the world appeared so disordered!
+
+Shakespeare even played with the necessity of _agreement_
 
     Petruchio: I say it is the moon.
     Katherina: I know it is the moon.
