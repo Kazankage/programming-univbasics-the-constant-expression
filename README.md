@@ -75,16 +75,16 @@ need to learn more technology.
 
 | Expression       | Has Operators? | Operators | Are we done? | Which to Apply |
 | ---------------- | -------------- | --------- | ------------ | -------------- |
-| `3 * ( 10 - 4 )` | YES            | `*`, `()` | NO           | Zoom-in on new sub-expression in `()` because of [PEMDAS][]|
-| `( 10 - 4 )`     | YES            | `-`       | NO           | Evaluate sub-expressions|
+| `3*(10-4)` | YES            | `*`, `()` | NO           | Zoom-in on new sub-expression in `()` because of [PEMDAS][]|
+| `(10-4)`     | YES            | `-`       | NO           | Evaluate sub-expressions|
 | `10`             | NO             | NONE      | YES          | Zoom in on expression `10`. Constant expression! Return the value of the constant, we're done!|
 | `4`              | NO             | NONE      | YES          | Zoom in on expression `4`. Constant expression! Return the value of the constant, we're done!|
-| `( 10 - 4 )`     | YES            | `-`       | NO           | Replace `( 10 - 4 )` with application of `-` to `10` and `4` making `6`
-| `3 * 6`          | YES            | `*`       | NO           | Zoom-out and replace the sub-expression with its value we just determined|
-| `3 * 6`          | YES            | `-`       | NO           | Zoom-in on sub-expression|
+| `(10-4)`     | YES            | `-`       | NO           | Replace `( 10 - 4 )` with application of `-` to `10` and `4` making `6`
+| `3*6`          | YES            | `*`       | NO           | Zoom-out and replace the sub-expression with its value we just determined|
+| `3*6`          | YES            | `-`       | NO           | Zoom-in on sub-expression|
 | ` 3`             | NO             | NONE      | YES          | Zoom in on expression `3`. Constant expression! Return the value of the constant, we're done!|
 | `6`              | NO             | NONE      | YES          | Zoom in on expression `6`. Constant expression! Return the value of the constant, we're done!|
-| `3 * 6`          | YES            | `*`       | NO           | Replace `3 * 6` with application of `*` to `3` and `6` making `18`|
+| `3*6`          | YES            | `*`       | NO           | Replace `3 * 6` with application of `*` to `3` and `6` making `18`|
 | `18`             | NO             | NONE      | YES          | Constant expression! Return the value of the constant, we're done!|
 
 ## Conclusion
