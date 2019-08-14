@@ -55,7 +55,8 @@ So what Ruby now sees looks like this:
 ![Math Expression: Step 2](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-constant-expression/Image_54_Step4.png)
 
 By the same logic of what we saw inside the `()`, Ruby then applies the `*` to
-`3` and `6` and creates a new expression, a _constant expression_:
+`3` and `6` and creates a new expression, a _constant expression_ the answer
+(or "return value"):
 
 ![Math Expression: Step 3](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-constant-expression/Image_54_Step5.png)
 
