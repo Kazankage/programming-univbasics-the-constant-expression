@@ -40,7 +40,7 @@ constant expression because of the `-` operator's presence. Ruby makes a "tree"
 of the two sides of the operator (`-`) and then looks on each side to see
 whether those sides are _constant expressions_ i.e. "plain old data."
 
-![Math Expression: Step 1](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-constant-expression/Image_54_Step1.5.png)
+![Math Expression: Step 1](https://curriculum-content.s3.amazonaws.com/programming-univbasics/the-constant-expression/Image_54_Step1.5.png) 
 
 Eventually it reaches `4` and that's plain old data. It then checks the other
 side and sees `10`, _also_ plain old data. Since these two are constant
