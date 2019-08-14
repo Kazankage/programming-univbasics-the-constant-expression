@@ -95,3 +95,4 @@ following expressions. The first rule of Aristotle's logic is `A is A`; the
 constant expression provides a similar "foundation" for programming.
 
 [PEMDAS]: https://en.wikipedia.org/wiki/Order_of_operations
+
